@@ -6,5 +6,5 @@ function calcular(){
     var getHora = valorHora.valueAsNumber
     var getHoraProjeto = valorHoraProjeto.valueAsNumber
     var calculo = (getHora*getHoraProjeto).toFixed(2)
-    resultado.textContent = "R$ " + calculo
+    resultado.textContent = "R$ " + calculo + " Esse é o valor do projeto!"
 }
